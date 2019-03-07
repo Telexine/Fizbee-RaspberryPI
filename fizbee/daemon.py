@@ -1,4 +1,8 @@
 import pexpect
+from firebase import firebase
+
+
+firebase = firebase.FirebaseApplication('https://fizbee-4c002.firebaseio.com', None)
 
 res = open("mac.txt", 'w')
  
